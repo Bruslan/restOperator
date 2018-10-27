@@ -61,4 +61,5 @@ func main() {
 
 	// Start the Cmd
 	log.Fatal(mgr.Start(signals.SetupSignalHandler()))
+
 }
